@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family= Dancing+Script & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 #caixinha {
 	width: 250px;
 }
@@ -10,11 +10,11 @@ h1{
     background-color: yellow;
     width: 200px;
     font-size: 40px;
-    font-family: 'Dancing Script', cursiva;
+    font-family: 'Dancing Script', cursive;
 }
 h2{color:white;
     background-color: black;
     width: 225px;
     font-size: 40px;
-    font-family: 'Dancing Script', cursiva;
+    font-family: 'Dancing Script', cursive;
 }
