@@ -2,11 +2,9 @@
     margin: 0;
 }
 
-header {
-    height: 400px;
-    border: 7px dashed red;
-    background-color: rgb(7, 73, 255);
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfR50Pt_8_c4MZMig-09lj7VMfzsyQuhgwmg&usqp=CAU);
+main {
+background-color: rgb(7, 73, 255);
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfR50Pt_8_c4MZMig-09lj7VMfzsyQuhgwmg&usqp=CAU);
 background-repeat: no-repeat;
 background-position: center;
 background-size:cover;
