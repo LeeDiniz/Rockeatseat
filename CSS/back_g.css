@@ -12,5 +12,5 @@ background-origin: border-box;
 background-attachment:fixed;*/
 
 background:rgb(7, 73, 255) url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfR50Pt_8_c4MZMig-09lj7VMfzsyQuhgwmg&usqp=CAU) no-repeat center / cover border-box fixed ;
-background: linear-gradient(yellow,orange,blue, red);
+background: radial-gradient(yellow,orange,blue, red);
 }
