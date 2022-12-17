@@ -1,0 +1,47 @@
+h1{
+background-color: black;
+color: white;
+font-family: 'Lacquer', cursive;
+font-weight: bold;
+font-style: italic;
+font-size: large;
+font-variant: no-common-ligatures proportional-nums;
+font-stretch: condensed;
+letter-spacing: 5px;
+word-spacing: 1px;
+line-height: 1;
+text-transform: uppercase;
+text-decoration: underline solid red 5px;
+text-align: center;
+
+
+}
+h2{
+background-color: rgb(4, 68, 4);
+font-family: 'Metal Mania', cursive;
+font-weight: lighter;
+font-style: oblique;
+font-size: small;
+font-variant: common-ligatures tabular-nums;
+font-stretch: expanded;
+letter-spacing: 10px;
+word-spacing: 5px;
+line-height: 2;
+text-transform: lowercase;
+text-decoration: overline dotted yellow 10px;
+text-align: right;
+}
+h3{
+background-color: rgb(196, 149, 157);
+font-family: 'Nosifer', cursive;
+font-weight: 600;
+font-style:normal;
+font-size: xx-large;
+font-variant: small-caps slashed-zero;
+font-stretch: normal;
+letter-spacing: 15px;
+word-spacing: 10px;
+line-height: 3;
+text-decoration: line-through solid purple;
+text-align: left;
+}
