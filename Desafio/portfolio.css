@@ -33,3 +33,119 @@ body {
     font-size: 13px;
     line-height: 16px;
 }
+
+#lista{
+    position: absolute;
+    width: 348px;
+    height: 348px;
+    left: 30px;
+    top: 357px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+#lista li {
+font-family: 'Merriweather Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: #837E9F;
+
+}
+#tecnologia {
+position: absolute;
+width: 348px;
+height: 208px;
+left: 40px;
+top: 740px;
+background: #302F3D;
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 20px;
+margin-top: 100px;
+color: #837E9F;
+font-family: 'Merriweather Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+}
+ .one{
+position: absolute;
+width: 86px;
+height: 24px;
+left: 70px;
+top: 60px;
+background: #CB92B1;
+border-radius: 30px;
+font-family: 'Merriweather Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 13px;
+text-align: center;
+color: #000000;
+padding-top: 10px;
+}
+  
+ .two{
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 171px;
+    top: 60px;
+    background: #CB92B1;
+    border-radius: 30px;
+    font-family: 'Merriweather Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 13px;
+text-align: center;
+text-transform: uppercase;
+padding-top: 10px;
+
+color: #000000;
+
+   
+ }
+ .three {
+ 
+position: absolute;
+width: 86px;
+height: 24px;
+left: 272px;
+top: 60px;
+background: #CB92B1;
+border-radius: 30px;
+padding-top: 10px;
+font-family: 'Merriweather Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 13px;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+
+ }
+ .four{
+    padding-top: 10px;
+    position: absolute;
+width: 86px;
+height: 24px;
+left: 70px;
+top: 0px;
+;
+
+background: #CB92B1;
+border-radius: 30px;
+ }
+ .five{
+    padding-top: 10px;
+ }
+ .six{
+    padding-top: 10px;
+ }
