@@ -69,12 +69,14 @@ body {
     line-height: 25px;
     padding: 40px;
 }
-#tags{
+
+#tags {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 10px ;
+    gap: 10px;
 }
+
 .tag {
     width: 109px;
     height: 24px;
@@ -90,5 +92,38 @@ body {
     padding-top: 10px;
     display: block;
     margin-bottom: 10px;
-    
+
+}
+
+#experiencia {
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #837E9F;
+    background: #302F3D;
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 20px;
+margin-bottom: 10px;
+padding-top: 10px;
+margin-top: 15px;
+}
+
+.rocket {
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #837E9F;
+}
+
+.data {
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #837E9F;
 }
