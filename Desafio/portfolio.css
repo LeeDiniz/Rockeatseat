@@ -9,6 +9,20 @@ body {
     background-color: var(--body-bg-color);
 }
 
+.linha {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#lateral {
+    width: 348px;
+}
+
+#conteudo {
+    width: calc(100vw - 420px);
+    margin-left: 20px;
+}
+
 #perfil {
     background-color: var(--bg-cards);
     text-align: center;
@@ -36,13 +50,20 @@ body {
 
 #lista {
 
-    width: 348px;
+
     height: 348px;
     background: #302F3D;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     padding: 40px;
     margin-bottom: 20px;
+}
+
+#lista ul,
+#lista li {
+    margin: 0px;
+    padding: 0px;
+
 }
 
 #lista li {
@@ -52,11 +73,22 @@ body {
     font-size: 12px;
     line-height: 15px;
     color: #837E9F;
+    list-style: none;
+    padding-bottom: 20px;
+
 
 }
 
+#lista img {
+    color: #837E9F;
+}
+
+#lista svg path {
+    fill: currentcolor;
+}
+
 #tecnologia {
-    width: 348px;
+
     height: 208px;
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -95,7 +127,7 @@ body {
 
 }
 
-#experiencia {
+.box {
     font-family: 'Merriweather Sans';
     font-style: normal;
     font-weight: 700;
@@ -103,11 +135,12 @@ body {
     line-height: 25px;
     color: #837E9F;
     background: #302F3D;
-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 20px;
-margin-bottom: 10px;
-padding-top: 10px;
-margin-top: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 15px;
+    padding: 20px;
 }
 
 .rocket {
@@ -126,4 +159,14 @@ margin-top: 15px;
     font-size: 12px;
     line-height: 15px;
     color: #837E9F;
+}
+
+.data_negrito {
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #837E9F;
+
 }
