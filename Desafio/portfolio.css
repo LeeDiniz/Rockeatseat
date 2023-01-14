@@ -170,3 +170,40 @@ body {
     color: #837E9F;
 
 }
+
+.projeto {
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    color: #837E9F;
+}
+
+.onix {
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    font-family: 'Merriweather Sans';
+    color: #837E9F;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.onix h1 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.onix h2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
