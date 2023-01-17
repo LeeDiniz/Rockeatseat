@@ -181,6 +181,9 @@ body {
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     color: #837E9F;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 .onix {
@@ -193,12 +196,18 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 39%;
+    margin-right: 20px;
+    
 }
 
 .onix h1 {
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
+    
 }
 
 .onix h2 {
@@ -206,4 +215,6 @@ body {
     font-size: 14px;
     line-height: 20px;
 }
-
+.rightside{
+    float: right;
+}
