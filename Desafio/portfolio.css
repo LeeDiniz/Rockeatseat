@@ -200,14 +200,14 @@ body {
     margin-bottom: 20px;
     width: 39%;
     margin-right: 20px;
-    
+
 }
 
 .onix h1 {
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    
+
 }
 
 .onix h2 {
@@ -215,6 +215,58 @@ body {
     font-size: 14px;
     line-height: 20px;
 }
-.rightside{
+
+.rightside {
     float: right;
+}
+
+.erro {
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #837E9F;
+   
+    
+
+}
+
+.anos {
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #837E9F;
+    width: 80px;
+}
+
+.erro_adb {
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #837E9F;
+    width: 483px;
+}
+
+.genimotion {
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #837E9F;
+    width: 110px;
+}
+
+.erro img {
+    display: inline-block;
+    width: 130px;
+
 }
