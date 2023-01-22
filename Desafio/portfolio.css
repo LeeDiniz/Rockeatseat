@@ -16,6 +16,7 @@ body {
 
 #lateral {
     width: 348px;
+    height: 1000px
 }
 
 #conteudo {
@@ -230,8 +231,12 @@ body {
     font-size: 18px;
     line-height: 23px;
     color: #837E9F;
-   
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
     
+
+
 
 }
 
@@ -262,7 +267,7 @@ body {
     font-size: 14px;
     line-height: 18px;
     color: #837E9F;
-    width: 110px;
+  
 }
 
 .erro img {
