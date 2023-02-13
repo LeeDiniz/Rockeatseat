@@ -1,18 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
 <form action="" method="post">
     <div>
         <label for="nome">Nome Completo:</label>
-        <input type="text" id="nome" />
+        <input type="text" placeholder="kleber Diniz" name="nome" />
         <button type="button">Enviar</button>
     </div>
     <div>
         <label for="email">E-mail:</label>
-        <input type="email" autocomplete="email" required id="email" />
+        <input type="email" name="email" autocomplete="email" required id="email" placeholder="kleberdiniz@gmail.com" />
         <button type="button">Enviar</button>
     </div>
     <div>
-        <label for="url">Seu documento:</label>
-        <imput type="url">
+        <label for="documento">Seu documento:</label>
+        <input name="documento" type="file">
         <button type="button">Enviar</button>
 
     </div>
+    <div>
+        <label for="color">Escolha sua cor favorita:</label>
+        <input name="color" type="color"></input>
+    </div>
+    <div>
+        <label for="pass">Senha:</label>
+        <input type="password" name="pass">
+        <button type="submit">Enviar</button>
+    </div>
+    <fieldset>
+        <legend>Estilo de musica favorita:</legend>
+        <div>
+            <input type="checkbox" name="musica" value="Rock">
+            <label for="Rock">Rock</label>
+        </div>
+        <div>
+            <input type="checkbox" name="musica" value="Pop">
+            <label for="Pop">Pop</label>
+        </div>
+        <div>
+            <input type="checkbox" name="musica" value="Country">
+            <label for="Country">Country</label>
+        </div>
+        <button type="submit">Enviar</button>
+    </fieldset>
+    <fieldset>
+        <legend>Filho único</legend>
+        <div>
+            <label for="sim">Sim</label>
+            <input type="radio" name="sim" value="sim">
+        </div>
+        <div>
+            <label for="nao">Não</label>
+            <input type="radio" name="nao" value="nao">
+        </div>
+        <button type="submit">Enviar</button>
+    </fieldset>
+    <div>
+        <label for="reclama">Sua reclamação:</label>
+        <textarea name="reclama"></textarea>
+        <button type="submit">Enviar</button>
+    </div>
+    <div>
+        <label for="cantor">Qual seu cantor favorito?</label>
+        <select name="cantor">
+            <option value="nenhum">Nenhum</option>
+            <option value="beyonce">Beyoncé</option>
+            <option value="rihanna">Rihanna</option>
+            <option value="ariana">Ariana Grande</option>
+            <option value="taylor">Taylor Swift</option>
+            
+        </select>
+        <button type="submit">Enviar</button>
+    </div>
+    <div>
+        <label> Escolha um ou mais animais:
+            <select name="pet">
+                <optgroup label="4 patas">
+                    <option value="cachorro">Cachorro</option>
+                    <option value="gato">Gato</option>
+                    <option value="cavalo" disabled>Cavalo</option>
+                </optgroup>
+                <optgroup label="aves">
+                    <option value="galinha">Galinha</option>
+                    <option value="papagaio">Papagaio</option>
+                    <option value="beijar-flor">Beijar-flor</option>
+                </optgroup>
+
+            </select>
+
+        </label>
+        <button type="submit">Enviar</button>
+    </div>
+<div>
+    <input type="search" name="pesquisa">
+    <button>pesquisa</button>
+</div>
+<div>
+    <label for="idade">Idade</label>
+    <input type="number" min="2" max="89" name="idade">
+    <button type="submit">Enviar</button>
+
+</div>
+<div>
+    <label for="avaliacao">Qual a sua satisfação com a empresa?</label>
+    <input type="range" min="0" max="10" step="1" name="avaliacao">
+    <button type="submit">Enviar</button>
+</div>
+<div>
+    <label for="ano">Sua data de nascimento:</label>
+    <input type="date" name="ano" value="dd-mm-yyyy">
+    <button type="submit">Enviar</button>
+</div>
 </form>
