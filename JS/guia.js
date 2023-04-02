@@ -6,4 +6,4 @@ let age, ishuman
 age = 20
 ishuman = true
 
-console.log(name,age,ishuman)
+console.log('a' + name + 'tem' + age + 'anos')
