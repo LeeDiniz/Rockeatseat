@@ -7,7 +7,7 @@ function createthink() {
 }
 subject = 'estudar'
 
-console.log(createthink(subject))
-console.log(subject)
 
+console.log(subject)
+console.log(createthink(subject))
 console.log(subject)
