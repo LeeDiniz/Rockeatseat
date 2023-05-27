@@ -1,4 +1,4 @@
-const SayMyName = function(){
+const SayMyName = () => {
     console.log('Leticia')
 }
 SayMyName()
