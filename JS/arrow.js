@@ -1,4 +1,4 @@
-const SayMyName = () => {
-    console.log('Leticia')
+const SayMyName = (name) => {
+    console.log(name)
 }
-SayMyName()
+SayMyName('Leticia')
